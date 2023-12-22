@@ -10,6 +10,7 @@ import { SessaoSobreComponent } from './pages/home/sessao-sobre/sessao-sobre.com
 import { SessaoObjetivosComponent } from './pages/home/sessao-objetivos/sessao-objetivos.component';
 import { SessaoDepoimentosComponent } from './pages/home/sessao-depoimentos/sessao-depoimentos.component';
 import { SessaoPatrocinadoresComponent } from './pages/home/sessao-patrocinadores/sessao-patrocinadores.component';
+import { SessaoComoAjudarComponent } from './pages/home/sessao-como-ajudar/sessao-como-ajudar.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SessaoPatrocinadoresComponent } from './pages/home/sessao-patrocinadore
     SessaoObjetivosComponent,
     SessaoDepoimentosComponent,
     SessaoPatrocinadoresComponent,
+    SessaoComoAjudarComponent,
    
     
   
