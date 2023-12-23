@@ -8,9 +8,10 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SejaUmDoadorComponent } from './pages/seja-um-doador/seja-um-doador.component';
 import { TransparenciaComponent } from './pages/transparencia/transparencia.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
-  {path: '', component: SessaoMainComponent, title: 'Home | Instituto Bushido'},
+  {path: '', component: HomeComponent, title: 'Home | Instituto Bushido'},
   {path: 'quem-somos', component: QuemSomosComponent, title: 'Quem Somos | Instituto Bushido'},
   {path: 'karate-sem-fronteiras', component: KarateSemFronteirasComponent,
     title: 'Karatê Sem Fronteiras | Instituto Bushido'},
