@@ -1,0 +1,39 @@
+.container-help{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container-help p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.box-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title{
+    color: #fff;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 18px;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.card-body img{
+    width: 100px;
+}
+
+.btn-card{
+    border-radius: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
