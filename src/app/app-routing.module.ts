@@ -4,8 +4,8 @@ import { SessaoMainComponent } from './pages/home/sessao-main/sessao-main.compon
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 const routes: Routes = [
-  {path: '', component: SessaoMainComponent},
-  {path: '**', component: PaginaNaoEncontradaComponent}
+  {path: '', component: SessaoMainComponent, title: 'Home | Instituto Bushido'},
+  {path: '**', component: PaginaNaoEncontradaComponent, title: 'Página não encontrada | Instituto Bushido'}
 ]
 
 @NgModule({
