@@ -8,14 +8,13 @@
 }
 svg{
     color: white;
+    transition: .5s;
 }
+
 @media (min-width:800px){
     svg:hover{
         color: rgba(113, 113, 187, 0.705);
-        height:50px;
-        width: 50px;
-        transition: 0.9s;
-    
+        transform: scale(1.5);
     }
 }
     
